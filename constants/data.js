@@ -188,26 +188,26 @@ export const skillsList = [
     title: "Java",
     level: "Basic",
   },
-  {
-    SkillIcon: SiPhp,
-    title: "PHP",
-    level: "Basic",
-  },
-  {
-    SkillIcon: SiC,
-    title: "C",
-    level: "Basic",
-  },
-  {
-    SkillIcon: SiCplusplus,
-    title: "C++",
-    level: "Basic",
-  },
-  {
-    SkillIcon: SiCsharp,
-    title: "C#",
-    level: "Basic",
-  },
+  // {
+  //   SkillIcon: SiPhp,
+  //   title: "PHP",
+  //   level: "Basic",
+  // },
+  // {
+  //   SkillIcon: SiC,
+  //   title: "C",
+  //   level: "Basic",
+  // },
+  // {
+  //   SkillIcon: SiCplusplus,
+  //   title: "C++",
+  //   level: "Basic",
+  // },
+  // {
+  //   SkillIcon: SiCsharp,
+  //   title: "C#",
+  //   level: "Basic",
+  // },
 ];
 
 export const awardList = [
