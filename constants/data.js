@@ -33,10 +33,10 @@ export const linkList = [
     title: "Works",
     href: "works",
   },
-  {
-    title: "Services",
-    href: "services",
-  },
+  // {
+  //   title: "Services",
+  //   href: "services",
+  // },
   {
     title: "Portfolio",
     href: "portfolio",
@@ -235,25 +235,25 @@ export const awardList = [
 
 export const exprienceList = [
   {
-    years: "2021 - 2022",
-    work: "Frontend Developer",
-    time: "Full Time | Work From Home",
-    company: "Zettabyte Pte Ltd",
-    description: "I develop an application and adding the feature into their application that called ADMTC",
+    years: "2023 - Present",
+    work: "Software Engineer",
+    time: "Full Time | On-site",
+    company: "Hayleys Advantis Limited",
+    description: "Developing and maintaining an application for Logistic International Limited at Welisara and Sedawatta locations, supporting container depot operations with storage, yard management, estimates, repairs, billing, and reporting.",
+  },
+  {
+    years: "2022 - 2023",
+    work: "Associate Software Engineer ",
+    time: "Full Time | Hybrid",
+    company: "Virtusa Private Limited",
+    description: "Developed and maintained Virtusa's internal support bot, called as Lisa, it is addressing HR, IT, Finance, and technical issues. Streamlined issue resolution without ticketing, saving time and effort for employees.",
   },
   {
     years: "2021 - 2022",
-    work: "Software Tester",
+    work: "Fullstack Developer - Intern",
     time: "Full Time | Work From Home",
-    company: "Zettabyte Pte Ltd",
-    description: "I testing an application and adding the feature into their application that called EDH",
-  },
-  {
-    years: "2021 - 2022",
-    work: "Quality Assurance",
-    time: "Full Time | Work From Home",
-    company: "Zettabyte Pte Ltd",
-    description: "I control and supervise an application and adding the feature into their application that called ADMTC",
+    company: "Enuri Information System-EIS",
+    description: "As a fullstack developer, I contributed to creation of application that called PathInTech and it is Innovative IT job platform, merging LinkedIn, Top Jobs, and Stack Overflow features.",
   },
 ];
 

@@ -26,7 +26,7 @@ function Works() {
         {/* Experience Section Subtitle & Description */}
         <SectionTitle>Works</SectionTitle>
         <SectionSubtitle>Work Experiences</SectionSubtitle>
-        <SectionDescription>I'm also experienced at some website development and software testing that i learn for 4 month will described below</SectionDescription>
+        <SectionDescription>In the past three years, I have gained substantial experience in web app and software development, contributing to the advancement of my career in the IT field.</SectionDescription>
 
         {/* Experience Section Content */}
         <motion.div

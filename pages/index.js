@@ -12,7 +12,7 @@ export default function MainPage() {
         <About />
         <Experiences />
         <Works />
-        <Services />
+        {/* <Services /> */}
         <Portfolio />
         <GetInTouch />
         <Article />
