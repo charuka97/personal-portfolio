@@ -153,16 +153,16 @@ export const skillsList = [
     title: "MySQL",
     level: "Intermediate",
   },
-  {
-    SkillIcon: SiHtml5,
-    title: "HTML",
-    level: "Intermediate",
-  },
-  {
-    SkillIcon: SiCss3,
-    title: "CSS",
-    level: "Intermediate",
-  },
+  // {
+  //   SkillIcon: SiHtml5,
+  //   title: "HTML",
+  //   level: "Intermediate",
+  // },
+  // {
+  //   SkillIcon: SiCss3,
+  //   title: "CSS",
+  //   level: "Intermediate",
+  // },
   {
     SkillIcon: SiBootstrap,
     title: "Bootstrap",
@@ -178,16 +178,16 @@ export const skillsList = [
     title: ".Net",
     level: "Basic",
   },
-  {
-    SkillIcon: SiAndroid,
-    title: "Android",
-    level: "Basic",
-  },
-  {
-    SkillIcon: SiJava,
-    title: "Java",
-    level: "Basic",
-  },
+  // {
+  //   SkillIcon: SiAndroid,
+  //   title: "Android",
+  //   level: "Basic",
+  // },
+  // {
+  //   SkillIcon: SiJava,
+  //   title: "Java",
+  //   level: "Basic",
+  // },
   // {
   //   SkillIcon: SiPhp,
   //   title: "PHP",
