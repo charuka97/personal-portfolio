@@ -1,15 +1,16 @@
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiNextdotjs, SiAngular, SiBootstrap, SiPhp, SiCodeigniter, SiMysql, SiNodedotjs } from "react-icons/si";
+import { SiHtml5, SiAmazon, SiAndroid, SiC, SiJava, SiCplusplus, SiCsharp, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiNextdotjs, SiAngular, SiBootstrap, SiPhp, SiCodeigniter, SiMysql, SiNodedotjs, SiMongodb, SiExpress, SiDotnet } from "react-icons/si";
 import { FaFileCode, FaAlignLeft, FaWhatsapp, FaFacebookF, FaInstagram, FaTiktok, FaTwitter, FaGithub } from "react-icons/fa";
 import { MdOutlineScreenSearchDesktop, MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
 export const identity = {
   name: "Charuka Tharindhu",
-  division: ["Fullstack Developer", "Software Tester"],
-  region: "Indonesia",
+  division: ["Software Engineer", "Web Developer"],
+  region: "Sri Lanka",
   description: [
-    "I create stunning website for your business, Intermediate experienced in web design and development.",
-    "Hello everyone! I am Charuka Tharindhu, a frontend application and website developer. I am a intermediate experienced and I hope with this I can always learning something new to be able to invent digital applications that can help humans in the future. Can work alone or in a team.",
+    //"I create stunning website for your business, Intermediate experienced in web design and development.",
+    "Experienced Full Stack Developer skilled in JavaScript, with expertise in MERN stack for web applications and websites development.",
+    "Hello everyone! I am Charuka Tharindhu, a fullstack and websites developer. I am a intermediate experienced and I hope with this I can always learning something new to be able to invent digital applications that can help humans in the future. Can work alone or in a team.",
   ],
   picture: ["/image/profil.png", "/image/about.jpeg"],
   CV: "/pdf/CV 2.pdf",
@@ -75,48 +76,38 @@ export const socialMediaList = [
 
 export const aboutExperiencesList = [
   {
-    number: 2,
+    number: 3,
     title: "Years Of Experience",
   },
   {
-    number: 4,
+    number: 5,
     title: "Programming Language Used",
   },
   {
-    number: 6,
+    number: 8,
     title: "Successed Projects",
   },
 ];
 
 export const educationList = [
   {
-    years: "2020 - 2023",
-    school: "TI Global Senior Highschool",
-    competence: "Software Engineering",
+    years: "2018 - 2022",
+    school: "Sri Lanka Institute of Information Technology",
+    competence: "BSc (Hons) Degree in Information Technology",
   },
   {
-    years: "2017 - 2020",
-    school: "Al-Ma'ruf Junior Highschool",
+    years: "2013 - 2016",
+    school: "T/Abayapura Maha Vidyalaya",
     competence: "Junior Highschool",
   },
   {
-    years: "2011 - 2017",
-    school: "Muhammadiyah 4 Elementary School",
+    years: "2003 - 2013",
+    school: "T/Mahadiwulwewa Maha Vidyalaya",
     competence: "Elementary School",
   },
 ];
 
 export const skillsList = [
-  {
-    SkillIcon: SiHtml5,
-    title: "HTML",
-    level: "Advanced",
-  },
-  {
-    SkillIcon: SiCss3,
-    title: "CSS",
-    level: "Advanced",
-  },
   {
     SkillIcon: SiJavascript,
     title: "JavaScript",
@@ -128,13 +119,53 @@ export const skillsList = [
     level: "Intermediate",
   },
   {
+    SkillIcon: SiNodedotjs,
+    title: "Node JS",
+    level: "Intermediate",
+  },
+  {
+    SkillIcon: SiExpress,
+    title: "Express JS",
+    level: "Intermediate",
+  },
+  {
     SkillIcon: SiNextdotjs,
     title: "Next JS",
-    level: "Basic",
+    level: "Intermediate",
   },
   {
     SkillIcon: SiTailwindcss,
     title: "Tailwind CSS",
+    level: "Intermediate",
+  },
+  {
+    SkillIcon: SiMongodb,
+    title: "MongoDB",
+    level: "Intermediate",
+  },
+  {
+    SkillIcon: SiAmazon,
+    title: "AWS",
+    level: "Intermediate",
+  },
+  {
+    SkillIcon: SiMysql,
+    title: "MySQL",
+    level: "Intermediate",
+  },
+  {
+    SkillIcon: SiHtml5,
+    title: "HTML",
+    level: "Intermediate",
+  },
+  {
+    SkillIcon: SiCss3,
+    title: "CSS",
+    level: "Intermediate",
+  },
+  {
+    SkillIcon: SiBootstrap,
+    title: "Bootstrap",
     level: "Intermediate",
   },
   {
@@ -143,9 +174,19 @@ export const skillsList = [
     level: "Basic",
   },
   {
-    SkillIcon: SiBootstrap,
-    title: "Bootstrap",
-    level: "Intermediate",
+    SkillIcon: SiDotnet,
+    title: ".Net",
+    level: "Basic",
+  },
+  {
+    SkillIcon: SiAndroid,
+    title: "Android",
+    level: "Basic",
+  },
+  {
+    SkillIcon: SiJava,
+    title: "Java",
+    level: "Basic",
   },
   {
     SkillIcon: SiPhp,
@@ -153,37 +194,42 @@ export const skillsList = [
     level: "Basic",
   },
   {
-    SkillIcon: SiCodeigniter,
-    title: "CodeIgniter 4",
+    SkillIcon: SiC,
+    title: "C",
     level: "Basic",
   },
   {
-    SkillIcon: SiMysql,
-    title: "MySQL",
+    SkillIcon: SiCplusplus,
+    title: "C++",
     level: "Basic",
   },
   {
-    SkillIcon: SiNodedotjs,
-    title: "Node JS",
+    SkillIcon: SiCsharp,
+    title: "C#",
     level: "Basic",
   },
 ];
 
 export const awardList = [
   {
-    years: "September - 2023",
-    award: "5 Th Winner Web Design Competition",
-    place: "UNBI University",
+    years: "Issued December 2022",
+    award: "BSc (Hons) Degree in Information Technology",
+    place: "SLIIT University",
   },
   {
-    years: "April - 2022",
-    award: "Completed Frontend Internship",
-    place: "Zettabyte Pte Ltd",
+    years: "July 2021 - March 2022",
+    award: "Completed Fullstack Developer Internship",
+    place: "Enuri Information System - EIS",
   },
+  // {
+  //   years: "Issued July 2021",
+  //   award: "Modern JavaScript From The Beginning ",
+  //   place: "Udemy",
+  // },
   {
-    years: "January - 2022",
-    award: "Completed Angular Bootcamp",
-    place: "Zettabyte Pte Ltd",
+    years: "February 2021 - May 2021",
+    award: "Completed Fullstack Developer Internship",
+    place: "VSS Global - Software Solutions",
   },
 ];
 
@@ -213,17 +259,18 @@ export const exprienceList = [
 
 export const servicesList = [
   {
-    title: "Software Testing",
-    ServicesIcon: MdOutlineScreenSearchDesktop,
-    description: "Software testing is the process that testing a software to make sure that software is running as expected and discover undiscover bug.",
-    services: ["Establish the right UX processes", "Create exceptional user experiences", "Discover undiscovered bug", "Save resources", "Software consultancy"],
-  },
-  {
     title: "Web Development",
     ServicesIcon: FaFileCode,
     description: "Web development services are used to design, build, support, maintenance and evolve all types of web-based software.",
     services: ["Web application development", "Web Testing", "Web Maintenancing", "Web Data Management", "Web Bug Fixing", "Web interface building", "Web experience building"],
   },
+  {
+    title: "Software Testing",
+    ServicesIcon: MdOutlineScreenSearchDesktop,
+    description: "Software testing is the process that testing a software to make sure that software is running as expected and discover undiscover bug.",
+    services: ["Establish the right UX processes", "Create exceptional user experiences", "Discover undiscovered bug", "Save resources", "Software consultancy"],
+  },
+  
   {
     title: "Content Writing",
     ServicesIcon: FaAlignLeft,
