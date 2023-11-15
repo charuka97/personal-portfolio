@@ -281,82 +281,82 @@ export const servicesList = [
 
 export const portfolioList = [
   {
-    title: "Netflix Clone Application",
-    subtitle: "React JS Tailwind CSS and Firebase",
+    title: "Supersconto Application",
+    subtitle: "Next.js Node.js Mongodb Material UI AWS EC2 and ASW S3",
     img: "/image/project-1.png",
     description:
-      "Netflix Clone Application i created using React JS, Tailwind CSS and Firebase which can getting data from MovieDB API and display the data into some movie list and we can be sign in or sign up for save our favorite movie list.",
+      "I contributed to the development of Supersconto web application designed to offer detailed information on discounted products within the city of Milan in Italy. The project includes both an admin panel and a user-facing web application, all powered by a single backend server.",
   },
   {
-    title: "Restaurant Landing Pages",
-    subtitle: "React JS",
+    title: "Bloonsoo Application",
+    subtitle: "Next.js Node.js Mongodb Material UI AWS EC2 and ASW S3",
     img: "/image/project-2.png",
-    description: "Using React JS, i have created Restaurant Landing Page which can display information about the restaurant, their menu and the time when restaurant open",
+    description: "I participated the development of Bloonsoo web application similar to Booking.com, initially targeting the Sri Lankan market for hotel bookings. We plan to expand into flights, villas, and day outings. Bloonsoo has an admin panel for super admins and hotel admins, with features like user authentication, authorization, google maps and payment gateways similar to Booking.com.",
   },
   {
-    title: "To-Do List Application",
-    subtitle: "React JS",
+    title: "PathInTech Application",
+    subtitle: "React.js Node.js MongoDB SendGrid API and PayHere gateway",
     img: "/image/project-3.png",
-    description: "To-Do List program that I created using React JS is a application that can record the activities you are going to do and then delete those activities or marked as done when you are done.",
+    description: "PathInTech.com is an innovative research project designed for IT job seekers. Our platform offers a multitude of features, including those found on LinkedIn, Top Jobs, and Stack Overflow. As a fullstack developer, I have contributed to the creation of this project, ensuring that our users have access to a comprehensive and user-friendly platform for their job search need.",
   },
-  {
-    title: "Real State Company Profile",
-    subtitle: "HTML CSS and JavaScript",
-    img: "/image/project-4.png",
-    description: "Real State Company Profile i created using HTML, CSS and JavaScript which can display information about their company, popular residences for you, company values and company contact",
-  },
-  {
-    title: "Phantom Landing Pages",
-    subtitle: "HTML CSS and JavaScript",
-    img: "/image/project-5.png",
-    description: "Using HTML CSS and JavaScript, I have created a dynamic Phantom Landing Page Website which can display data about the Phantom's products and promote them.",
-  },
-  {
-    title: "Personal Portfolio Website",
-    subtitle: "HTML CSS and JavaScript",
-    img: "/image/project-6.png",
-    description: "Personal portfolio website that i created using HTML, CSS and JavaScript which can displaying about yourself, your skills, your services, your portfolio and contact",
-  },
+  // {
+  //   title: "Real State Company Profile",
+  //   subtitle: "HTML CSS and JavaScript",
+  //   img: "/image/project-4.png",
+  //   description: "Real State Company Profile i created using HTML, CSS and JavaScript which can display information about their company, popular residences for you, company values and company contact",
+  // },
+  // {
+  //   title: "Phantom Landing Pages",
+  //   subtitle: "HTML CSS and JavaScript",
+  //   img: "/image/project-5.png",
+  //   description: "Using HTML CSS and JavaScript, I have created a dynamic Phantom Landing Page Website which can display data about the Phantom's products and promote them.",
+  // },
+  // {
+  //   title: "Personal Portfolio Website",
+  //   subtitle: "HTML CSS and JavaScript",
+  //   img: "/image/project-6.png",
+  //   description: "Personal portfolio website that i created using HTML, CSS and JavaScript which can displaying about yourself, your skills, your services, your portfolio and contact",
+  // },
 ];
 
 export const allPortfolioList = [
   ...portfolioList,
   {
-    title: "Starbucks Landing Page",
-    subtitle: "HTML CSS and JavaScript",
+    title: "INLAND CONTAINER DEPO",
+    subtitle: "Angula.js Asp.net NativeScript and WCF services",
     img: "/image/project-7.png",
-    description: "Using HTML CSS and JavaScript, I have created a static Starbucks Landing Page Website which can display information about the Starbucks's products and promote them.",
+    description: "The team development and maintenance an application for Logistic International Limited, which supports container depot operations at two locations Welisara and Sedawatta. It provides container storage and various services like yard management, estimates, damage repair, billing, and reporting.",
   },
-  {
-    title: "Pepsi Landing Page",
-    subtitle: "HTML CSS and JavaScript",
-    img: "/image/project-8.png",
-    description: "Using HTML CSS and JavaScript, I have created a static Pepsi Landing Page Website which can display information about the Pepsi's products and promote them.",
-  },
-  {
-    title: "Coffee Landing Page",
-    subtitle: "HTML CSS and JavaScript",
-    img: "/image/project-9.png",
-    description: "Coffee Landing Page i created using HTML, CSS and JavaScript which can display information about their cafe, popular menus for you, cafe values and cafe contact.",
-  },
-  {
-    title: "Clothes Shop Landing Page",
-    subtitle: "HTML CSS and JavaScript",
-    img: "/image/project-10.png",
-    description: "Clothes Shop Landing Page website that i created using HTML, CSS and JavaScript which can displaying about new stylish clothes, clothes recommendation for you, their collection and contact.",
-  },
-  {
-    title: "Berotot Gym Landing Page",
-    subtitle: "HTML CSS and JavaScript",
-    img: "/image/project-11.png",
-    description: "Berotot Gym website i created using HTML, CSS and JavaScript which can displaying about their package, your excercise, reason to choose them and also BMI calculator.",
-  },
-  {
-    title: "Cryptoza Landing Page",
-    subtitle: "HTML CSS and JavaScript",
-    img: "/image/project-12.png",
-    description: "Cryptoza Landing Page website i created using HTML, CSS and JavaScript which can displaying about daily crypto exchange rate, thier values and demo of cryptograph.",
-  },
+  // {
+  //   title: "Pepsi Landing Page",
+  //   subtitle: "HTML CSS and JavaScript",
+  //   img: "/image/project-8.png",
+  //   description: "Using HTML CSS and JavaScript, I have created a static Pepsi Landing Page Website which can display information about the Pepsi's products and promote them.",
+  // },
+  // {
+  //   title: "Coffee Landing Page",
+  //   subtitle: "HTML CSS and JavaScript",
+  //   img: "/image/project-9.png",
+  //   description: "Coffee Landing Page i created using HTML, CSS and JavaScript which can display information about their cafe, popular menus for you, cafe values and cafe contact.",
+  // },
+  // {
+  //   title: "Clothes Shop Landing Page",
+  //   subtitle: "HTML CSS and JavaScript",
+  //   img: "/image/project-10.png",
+  //   description: "Clothes Shop Landing Page website that i created using HTML, CSS and JavaScript which can displaying about new stylish clothes, clothes recommendation for you, their collection and contact.",
+  // },
+  // {
+  //   title: "Berotot Gym Landing Page",
+  //   subtitle: "HTML CSS and JavaScript",
+  //   img: "/image/project-11.png",
+  //   description: "Berotot Gym website i created using HTML, CSS and JavaScript which can displaying about their package, your excercise, reason to choose them and also BMI calculator.",
+  // },
+  // {
+  //   title: "Cryptoza Landing Page",
+  //   subtitle: "HTML CSS and JavaScript",
+  //   img: "/image/project-12.png",
+  //   description: "Cryptoza Landing Page website i created using HTML, CSS and JavaScript which can displaying about daily crypto exchange rate, thier values and demo of cryptograph.",
+  // },
 ];
 
 export const articleList = [

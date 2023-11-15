@@ -15,7 +15,7 @@ export default function MainPage() {
         {/* <Services /> */}
         <Portfolio />
         <GetInTouch />
-        <Article />
+        {/* <Article /> */}
         <Contact />
       </main>
     </React.Fragment>
