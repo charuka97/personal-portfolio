@@ -19,9 +19,10 @@ export default function Button({ type, size, className = "", children, ...props 
           : type === "outline-primary" && theme === "dark"
           ? "bg-transparent border-altPrimary text-altPrimary hover:bg-altPrimary hover:text-white"
           : ""
-      } ${
-        size === "normal" ? "lg:px-12 px-8 py-3 text-[1em]" : size === "large" ? "lg:px-14 px-10 py-4 text-[1.25em]" : size === "small" ? "px-2 py-2 lg:px-4 text-[0.75em]" : ""
-      } ${className} font-medium tracking-[1px] inline-block border-[2px] transition-all duration-300`}
+      } 
+      ${
+        size === "normal" ? "lg:px-12 px-8 py-3 text-[1em]" : size === "large" ? "lg:px-14 px-10 py-4 text-[0.25em]" : size === "small" ? "px-2 py-2 lg:px-1 text-[0.64em]" : ""
+      } ${className} font-medium tracking-[1px] inline-block border-[1px] transition-all duration-300`}
       scroll={false}
       {...props}
     >
