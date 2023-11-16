@@ -41,10 +41,10 @@ export const linkList = [
     title: "Portfolio",
     href: "portfolio",
   },
-  {
-    title: "Article",
-    href: "article",
-  },
+  // {
+  //   title: "Article",
+  //   href: "article",
+  // },
   {
     title: "Contact",
     href: "contact",
@@ -280,31 +280,38 @@ export const servicesList = [
 ];
 
 export const portfolioList = [
+  
   {
+    title: "PathInTech Application",
+    subtitle: "React.js Node.js MongoDB SendGrid API and PayHere gateway",
+    img: "/image/project-3.png",
+    description: "PathInTech.com is an innovative research project designed for IT job seekers. Our platform offers a multitude of features, including those found on LinkedIn, Top Jobs, and Stack Overflow. As a fullstack developer, I have contributed to the creation of this project, ensuring that our users have access to a comprehensive and user-friendly platform for their job search need.",
+    liveURl : "https://www.pathintech.com/",
+    githubURL : "https://www.pathintech.com/"
+  },{
     title: "Supersconto Application",
     subtitle: "Next.js Node.js Mongodb Material UI AWS EC2 and ASW S3",
     img: "/image/project-1.png",
-    description:
-      "I contributed to the development of Supersconto web application designed to offer detailed information on discounted products within the city of Milan in Italy. The project includes both an admin panel and a user-facing web application, all powered by a single backend server.",
+    description:"I contributed to the development of Supersconto web application designed to offer detailed information on discounted products within the city of Milan in Italy. The project includes both an admin panel and a user-facing web application, all powered by a single backend server.",
+    liveURl : "https://supersconto24.com/",
+    githubURL : ""
+  },
+  {
+    title: "PXL Lab Website",
+    subtitle: "Next.js React.js Material UI Tailwind CSS TypeScript",
+    img: "/image/project-4.png",
+    description: "PxL Tech provides end-to-end services in mobile and web development, along with tailored staffing and expert guidance in innovative machine learning solutions. As a developer, I've contributed to crafting a comprehensive, user-friendly platform, empowering our clients to achieve their goals seamlessly through our website.",
+    liveURl : "",
+    githubURL : ""
   },
   {
     title: "Bloonsoo Application",
     subtitle: "Next.js Node.js Mongodb Material UI AWS EC2 and ASW S3",
     img: "/image/project-2.png",
     description: "I participated the development of Bloonsoo web application similar to Booking.com, initially targeting the Sri Lankan market for hotel bookings. We plan to expand into flights, villas, and day outings. Bloonsoo has an admin panel for super admins and hotel admins, with features like user authentication, authorization, google maps and payment gateways similar to Booking.com.",
+    liveURl : "",
+    githubURL : ""
   },
-  {
-    title: "PathInTech Application",
-    subtitle: "React.js Node.js MongoDB SendGrid API and PayHere gateway",
-    img: "/image/project-3.png",
-    description: "PathInTech.com is an innovative research project designed for IT job seekers. Our platform offers a multitude of features, including those found on LinkedIn, Top Jobs, and Stack Overflow. As a fullstack developer, I have contributed to the creation of this project, ensuring that our users have access to a comprehensive and user-friendly platform for their job search need.",
-  },
-  // {
-  //   title: "Real State Company Profile",
-  //   subtitle: "HTML CSS and JavaScript",
-  //   img: "/image/project-4.png",
-  //   description: "Real State Company Profile i created using HTML, CSS and JavaScript which can display information about their company, popular residences for you, company values and company contact",
-  // },
   // {
   //   title: "Phantom Landing Pages",
   //   subtitle: "HTML CSS and JavaScript",
@@ -326,6 +333,8 @@ export const allPortfolioList = [
     subtitle: "Angula.js Asp.net NativeScript and WCF services",
     img: "/image/project-7.png",
     description: "The team development and maintenance an application for Logistic International Limited, which supports container depot operations at two locations Welisara and Sedawatta. It provides container storage and various services like yard management, estimates, damage repair, billing, and reporting.",
+    liveURl : "",
+    githubURL : ""
   },
   // {
   //   title: "Pepsi Landing Page",
