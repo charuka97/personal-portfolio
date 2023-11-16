@@ -54,8 +54,8 @@ function PortfolioPage() {
         <SectionDescription>These all my project that i have created while learning about frontend development.</SectionDescription>
 
         {/* Portfolio Page Container */}
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:w-full w-[80%] lg:mx-0 mx-auto gap-10 mt-16 ">
-          {allPortfolioList.map(({ title, subtitle, img, description }, index) => (
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:w-full w-[92.6%] lg:mx-0 mx-auto gap-5 mt-16 ">
+          {allPortfolioList.map(({ title, subtitle, img, description,liveURl, githubURL }, index) => (
             <div
               key={index}
               className={`${
@@ -74,7 +74,7 @@ function PortfolioPage() {
                 <h4 className={`${theme === "light" ? "text-light" : "text-altLight"} font-medium xl:text-[1em] text-[0.85em]`}>{subtitle}</h4>
                 <p className="font-normal text-[0.9em]">{truncateString(description)}</p>
               </div>
-              <div className="flex items-center gap-x-5 xl:max-w-[85%] w-full mt-4">
+              <div className="flex items-center gap-x-5 xl:max-w-[80%] w-full mt-4">
                 <Button
                   href={"/portfolio"}
                   onClick={() => handleOpenModal(index)}
@@ -84,14 +84,31 @@ function PortfolioPage() {
                 >
                   View More
                 </Button>
-                <Button
-                  href={"/portfolio"}
-                  type="outline-primary"
-                  size="small"
-                  className="rounded-md text-center font-medium tracking-wide"
-                >
-                  Live Preview
-                </Button>
+                {liveURl ? (
+                    <Button
+                      href={liveURl}
+                      type="outline-primary"
+                      size="small"
+                      className="rounded-md font-medium text-center"
+                    >
+                      Live Preview
+                    </Button>
+                  ) : (
+                    ""
+                  )}
+
+                  {githubURL ? (
+                    <Button
+                      href={githubURL}
+                      type="outline-primary"
+                      size="small"
+                      className="rounded-md font-medium text-center"
+                    >
+                      Source Code
+                    </Button>
+                  ) : (
+                    ""
+                  )}
               </div>
             </div>
           ))}

@@ -80,7 +80,7 @@ function Portfolio() {
         {/* Portfolio Section Content */}
         <motion.div
           variants={fadeIn("right", "tween", 0, 1)}
-          className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:w-full w-[80%] lg:mx-0 mx-auto gap-10 mt-16"
+          className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:w-full w-[92.6%] lg:mx-0 mx-auto gap-5 mt-16"
         >
           {portfolioList.map(
             (

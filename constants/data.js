@@ -252,7 +252,7 @@ export const exprienceList = [
     years: "2021 - 2022",
     work: "Fullstack Developer - Intern",
     time: "Full Time | Work From Home",
-    company: "Enuri Information System-EIS",
+    company: "Enuri Information System",
     description: "As a fullstack developer, I contributed to creation of application that called PathInTech and it is Innovative IT job platform, merging LinkedIn, Top Jobs, and Stack Overflow features.",
   },
 ];

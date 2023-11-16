@@ -40,6 +40,7 @@ function Works() {
               key={index}
               className={`${theme === "light" ? "bg-white border-primary text-black" : "bg-altSecondary border-altPrimary text-white"} p-[35px] shadow-cardShadow rounded-md border-b-[3px] transition-all duration-300 hover:scale-105`}
             >
+              
               <div className={`${theme === "light" ? "border-light/50" : "border-altLight/50"} flex flex-col leading-[30px] border-b-2 pb-3`}>
                 <h4 className="font-bold text-[1.3em]">{work}</h4>
                 <h5 className="font-medium text-[0.9em] italic">{time}</h5>
