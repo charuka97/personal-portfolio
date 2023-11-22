@@ -1,5 +1,5 @@
-import { SiHtml5, SiAmazon, SiAndroid, SiC, SiJava, SiCplusplus, SiCsharp, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiNextdotjs, SiAngular, SiBootstrap, SiPhp, SiCodeigniter, SiMysql, SiNodedotjs, SiMongodb, SiExpress, SiDotnet } from "react-icons/si";
-import { FaFileCode, FaAlignLeft, FaWhatsapp, FaFacebookF, FaInstagram, FaTiktok, FaTwitter, FaGithub } from "react-icons/fa";
+import { SiHtml5, SiAmazon, SiAndroid, SiC, SiJava, SiCplusplus, SiCsharp, SiCss3, SiMaterialui, SiJavascript, SiReact, SiTailwindcss, SiNextdotjs, SiAngular, SiBootstrap, SiPhp, SiCodeigniter, SiMysql, SiNodedotjs, SiMongodb, SiExpress, SiDotnet } from "react-icons/si";
+import { FaFileCode, FaAlignLeft, FaWhatsapp, FaFacebookF, FaInstagram, FaTiktok, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 import { MdOutlineScreenSearchDesktop, MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
@@ -15,7 +15,6 @@ export const identity = {
   picture: ["/image/profil.png", "/image/about.jpeg"],
   CV: "/pdf/CV 2.pdf",
 };
-
 export const linkList = [
   {
     title: "Home",
@@ -62,11 +61,11 @@ export const socialMediaList = [
   },
   {
     SocialMediaIcon: FaGithub,
-    href: "https://github.com/Muhammad-Sufyan-901",
+    href: "",
   },
   {
-    SocialMediaIcon: FaTiktok,
-    href: "https://tiktok.com",
+    SocialMediaIcon: FaLinkedin,
+    href: "https://www.linkedin.com/in/charuka-tharindhu-9416711b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     SocialMediaIcon: FaTwitter,
@@ -144,6 +143,11 @@ export const skillsList = [
     level: "Intermediate",
   },
   {
+    SkillIcon: SiMaterialui,
+    title: "MaterialUI",
+    level: "Intermediate",
+  },
+  {
     SkillIcon: SiAmazon,
     title: "AWS",
     level: "Intermediate",
@@ -163,11 +167,6 @@ export const skillsList = [
   //   title: "CSS",
   //   level: "Intermediate",
   // },
-  {
-    SkillIcon: SiBootstrap,
-    title: "Bootstrap",
-    level: "Intermediate",
-  },
   {
     SkillIcon: SiAngular,
     title: "Angular JS",
