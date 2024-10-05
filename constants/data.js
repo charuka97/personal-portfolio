@@ -1,11 +1,45 @@
-import { SiHtml5, SiAmazon, SiAndroid, SiC, SiJava, SiCplusplus, SiCsharp, SiCss3, SiMaterialui, SiJavascript, SiReact, SiTailwindcss, SiNextdotjs, SiAngular, SiBootstrap, SiPhp, SiCodeigniter, SiMysql, SiNodedotjs, SiMongodb, SiExpress, SiDotnet } from "react-icons/si";
-import { FaFileCode, FaAlignLeft, FaWhatsapp, FaFacebookF, FaInstagram, FaTiktok, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
+import {
+  SiHtml5,
+  SiAmazon,
+  SiAndroid,
+  SiC,
+  SiJava,
+  SiCplusplus,
+  SiCsharp,
+  SiCss3,
+  SiMaterialui,
+  SiJavascript,
+  SiReact,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiAngular,
+  SiBootstrap,
+  SiPhp,
+  SiCodeigniter,
+  SiMysql,
+  SiNodedotjs,
+  SiMongodb,
+  SiExpress,
+  SiDotnet,
+  SiTypescript,
+} from "react-icons/si";
+import {
+  FaFileCode,
+  FaAlignLeft,
+  FaWhatsapp,
+  FaFacebookF,
+  FaInstagram,
+  FaTiktok,
+  FaLinkedin,
+  FaTwitter,
+  FaGithub,
+} from "react-icons/fa";
 import { MdOutlineScreenSearchDesktop, MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
 export const identity = {
   name: "Charuka Tharindhu",
-  division: ["Software Engineer", "Web Developer"],
+  division: ["Software Engineer", "Web Developer", "Web Scrapper"],
   region: "Sri Lanka",
   description: [
     //"I create stunning website for your business, Intermediate experienced in web design and development.",
@@ -13,7 +47,7 @@ export const identity = {
     "Hello everyone! I am Charuka Tharindhu, a fullstack and websites developer. I am a intermediate experienced and I hope with this I can always learning something new to be able to invent digital applications that can help humans in the future. Can work alone or in a team.",
   ],
   picture: ["/image/profil.png", "/image/about.jpeg"],
-  CV: "/pdf/CV 2.pdf",
+  CV: "/pdf/D.M.C.T.Krishantha.pdf",
 };
 export const linkList = [
   {
@@ -65,7 +99,7 @@ export const socialMediaList = [
   },
   {
     SocialMediaIcon: FaLinkedin,
-    href: "https://www.linkedin.com/in/charuka-tharindhu-9416711b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    href: "https://github.com/charuka97/personal-portfolio",
   },
   {
     SocialMediaIcon: FaTwitter,
@@ -94,19 +128,24 @@ export const educationList = [
     school: "Sri Lanka Institute of Information Technology",
     competence: "BSc (Hons) Degree in Information Technology",
   },
-  {
-    years: "2013 - 2016",
-    school: "T/Abayapura Maha Vidyalaya",
-    competence: "Junior Highschool",
-  },
-  {
-    years: "2003 - 2013",
-    school: "T/Mahadiwulwewa Maha Vidyalaya",
-    competence: "Elementary School",
-  },
+  // {
+  //   years: "2013 - 2016",
+  //   school: "T/Abayapura Maha Vidyalaya",
+  //   competence: "Junior Highschool",
+  // },
+  // {
+  //   years: "2003 - 2013",
+  //   school: "T/Mahadiwulwewa Maha Vidyalaya",
+  //   competence: "Elementary School",
+  // },
 ];
 
 export const skillsList = [
+  {
+    SkillIcon: SiTypescript,
+    title: "TypeScript",
+    level: "Intermediate",
+  },
   {
     SkillIcon: SiJavascript,
     title: "JavaScript",
@@ -157,16 +196,6 @@ export const skillsList = [
     title: "MySQL",
     level: "Intermediate",
   },
-  // {
-  //   SkillIcon: SiHtml5,
-  //   title: "HTML",
-  //   level: "Intermediate",
-  // },
-  // {
-  //   SkillIcon: SiCss3,
-  //   title: "CSS",
-  //   level: "Intermediate",
-  // },
   {
     SkillIcon: SiAngular,
     title: "Angular JS",
@@ -177,36 +206,11 @@ export const skillsList = [
     title: ".Net",
     level: "Basic",
   },
-  // {
-  //   SkillIcon: SiAndroid,
-  //   title: "Android",
-  //   level: "Basic",
-  // },
-  // {
-  //   SkillIcon: SiJava,
-  //   title: "Java",
-  //   level: "Basic",
-  // },
-  // {
-  //   SkillIcon: SiPhp,
-  //   title: "PHP",
-  //   level: "Basic",
-  // },
-  // {
-  //   SkillIcon: SiC,
-  //   title: "C",
-  //   level: "Basic",
-  // },
-  // {
-  //   SkillIcon: SiCplusplus,
-  //   title: "C++",
-  //   level: "Basic",
-  // },
-  // {
-  //   SkillIcon: SiCsharp,
-  //   title: "C#",
-  //   level: "Basic",
-  // },
+  {
+    SkillIcon: SiCsharp,
+    title: "C#",
+    level: "Basic",
+  },
 ];
 
 export const awardList = [
@@ -234,25 +238,44 @@ export const awardList = [
 
 export const exprienceList = [
   {
-    years: "2023 - Present",
+    years: "June 2024 – present",
+    work: "Full Stack Software Engineer",
+    time: "Full Time | Hybrid",
+    company: "Nova Solutions (Pvt) Ltd",
+    description:
+      "Developed a specialized POS system called VENDERX POS SYSTEM for restaurants, enhancing order management and reporting, while also creating PLATFORM-PROFTR, a tool that streamlines product research for drop shippers by aggregating data from Alibaba, Amazon, and eBay.",
+  },
+  {
+    years: "Dec 2023 – June 2024",
+    work: "Full Stack Freelance Developer - MERN",
+    time: "Part Time | Remote",
+    company: "Freelance Developer",
+    description:
+      "Supersconto & Bloonsoo is a web app showcasing discounted products in Milan while offering flights, villas, and outings, featuring Google Maps integration and secure user authentication for seamless management.",
+  },
+  {
+    years: "April 2023 – June 2024",
     work: "Software Engineer",
     time: "Full Time | On-site",
     company: "Hayleys Advantis Limited",
-    description: "Developing and maintaining an application for Logistic International Limited at Welisara and Sedawatta locations, supporting container depot operations with storage, yard management, estimates, repairs, billing, and reporting.",
+    description:
+      "Developing and maintaining an application for Logistic International Limited at Welisara and Sedawatta locations, supporting container depot operations with storage, yard management, estimates, repairs, billing, and reporting.",
   },
   {
-    years: "2022 - 2023",
+    years: "March 2022 - April 2023",
     work: "Associate Software Engineer ",
     time: "Full Time | Hybrid",
     company: "Virtusa Private Limited",
-    description: "Developed and maintained Virtusa's internal support bot, called as Lisa, it is addressing HR, IT, Finance, and technical issues. Streamlined issue resolution without ticketing, saving time and effort for employees.",
+    description:
+      "Developed and maintained Virtusa's internal support bot, called as Lisa, it is addressing HR, IT, Finance, and technical issues. Streamlined issue resolution without ticketing, saving time and effort for employees.",
   },
   {
-    years: "2021 - 2022",
+    years: "July 2021 - March 2022",
     work: "Fullstack Developer - Intern",
     time: "Full Time | Work From Home",
     company: "Enuri Information System",
-    description: "As a fullstack developer, I contributed to creation of application that called PathInTech and it is Innovative IT job platform, merging LinkedIn, Top Jobs, and Stack Overflow features.",
+    description:
+      "As a fullstack developer, I contributed to creation of application that called PathInTech and it is Innovative IT job platform, merging LinkedIn, Top Jobs, and Stack Overflow features.",
   },
 ];
 
@@ -260,56 +283,83 @@ export const servicesList = [
   {
     title: "Web Development",
     ServicesIcon: FaFileCode,
-    description: "Web development services are used to design, build, support, maintenance and evolve all types of web-based software.",
-    services: ["Web application development", "Web Testing", "Web Maintenancing", "Web Data Management", "Web Bug Fixing", "Web interface building", "Web experience building"],
+    description:
+      "Web development services are used to design, build, support, maintenance and evolve all types of web-based software.",
+    services: [
+      "Web application development",
+      "Web Testing",
+      "Web Maintenancing",
+      "Web Data Management",
+      "Web Bug Fixing",
+      "Web interface building",
+      "Web experience building",
+    ],
   },
   {
     title: "Software Testing",
     ServicesIcon: MdOutlineScreenSearchDesktop,
-    description: "Software testing is the process that testing a software to make sure that software is running as expected and discover undiscover bug.",
-    services: ["Establish the right UX processes", "Create exceptional user experiences", "Discover undiscovered bug", "Save resources", "Software consultancy"],
+    description:
+      "Software testing is the process that testing a software to make sure that software is running as expected and discover undiscover bug.",
+    services: [
+      "Establish the right UX processes",
+      "Create exceptional user experiences",
+      "Discover undiscovered bug",
+      "Save resources",
+      "Software consultancy",
+    ],
   },
-  
+
   {
     title: "Content Writing",
     ServicesIcon: FaAlignLeft,
-    description: "Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes.",
-    services: ["Web content writing", "Blog writing for websites", "Social media content", "Presentation content", "CV content writing"],
+    description:
+      "Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes.",
+    services: [
+      "Web content writing",
+      "Blog writing for websites",
+      "Social media content",
+      "Presentation content",
+      "CV content writing",
+    ],
   },
 ];
 
 export const portfolioList = [
-  
   {
     title: "PathInTech Application",
     subtitle: "React.js Node.js MongoDB SendGrid API and PayHere gateway",
     img: "/image/project-3.png",
-    description: "PathInTech.com is an innovative research project designed for IT job seekers. Our platform offers a multitude of features, including those found on LinkedIn, Top Jobs, and Stack Overflow. As a fullstack developer, I have contributed to the creation of this project, ensuring that our users have access to a comprehensive and user-friendly platform for their job search need.",
-    liveURl : "https://www.pathintech.com/",
-    githubURL : "https://www.pathintech.com/"
-  },{
+    description:
+      "PathInTech.com is an innovative research project designed for IT job seekers. Our platform offers a multitude of features, including those found on LinkedIn, Top Jobs, and Stack Overflow. As a fullstack developer, I have contributed to the creation of this project, ensuring that our users have access to a comprehensive and user-friendly platform for their job search need.",
+    liveURl: "https://www.pathintech.com/",
+    githubURL: "https://www.pathintech.com/",
+  },
+  {
     title: "Supersconto Application",
     subtitle: "Next.js Node.js Mongodb Material UI AWS EC2 and ASW S3",
     img: "/image/project-1.png",
-    description:"I contributed to the development of Supersconto web application designed to offer detailed information on discounted products within the city of Milan in Italy. The project includes both an admin panel and a user-facing web application, all powered by a single backend server.",
-    liveURl : "https://supersconto24.com/",
-    githubURL : ""
+    description:
+      "I contributed to the development of Supersconto web application designed to offer detailed information on discounted products within the city of Milan in Italy. The project includes both an admin panel and a user-facing web application, all powered by a single backend server.",
+    liveURl: "https://supersconto24.com/",
+    githubURL: "",
   },
   {
     title: "PXL Lab Website",
     subtitle: "Next.js React.js Material UI Tailwind CSS TypeScript",
     img: "/image/project-4.png",
-    description: "PxL Tech provides end-to-end services in mobile and web development, along with tailored staffing and expert guidance in innovative machine learning solutions. As a developer, I've contributed to crafting a comprehensive, user-friendly platform, empowering our clients to achieve their goals seamlessly through our website.",
-    liveURl : "",
-    githubURL : ""
+    description:
+      "PxL Tech provides end-to-end services in mobile and web development, along with tailored staffing and expert guidance in innovative machine learning solutions. As a developer, I've contributed to crafting a comprehensive, user-friendly platform, empowering our clients to achieve their goals seamlessly through our website.",
+    liveURl: "",
+    githubURL: "",
   },
   {
     title: "Bloonsoo Application",
     subtitle: "Next.js Node.js Mongodb Material UI AWS EC2 and ASW S3",
     img: "/image/project-2.png",
-    description: "I participated the development of Bloonsoo web application similar to Booking.com, initially targeting the Sri Lankan market for hotel bookings. We plan to expand into flights, villas, and day outings. Bloonsoo has an admin panel for super admins and hotel admins, with features like user authentication, authorization, google maps and payment gateways similar to Booking.com.",
-    liveURl : "",
-    githubURL : ""
+    description:
+      "I participated the development of Bloonsoo web application similar to Booking.com, initially targeting the Sri Lankan market for hotel bookings. We plan to expand into flights, villas, and day outings. Bloonsoo has an admin panel for super admins and hotel admins, with features like user authentication, authorization, google maps and payment gateways similar to Booking.com.",
+    liveURl: "",
+    githubURL: "",
   },
   // {
   //   title: "Phantom Landing Pages",
@@ -331,9 +381,10 @@ export const allPortfolioList = [
     title: "INLAND CONTAINER DEPO",
     subtitle: "Angula.js Asp.net NativeScript and WCF services",
     img: "/image/project-7.png",
-    description: "The team development and maintenance an application for Logistic International Limited, which supports container depot operations at two locations Welisara and Sedawatta. It provides container storage and various services like yard management, estimates, damage repair, billing, and reporting.",
-    liveURl : "",
-    githubURL : ""
+    description:
+      "The team development and maintenance an application for Logistic International Limited, which supports container depot operations at two locations Welisara and Sedawatta. It provides container storage and various services like yard management, estimates, damage repair, billing, and reporting.",
+    liveURl: "",
+    githubURL: "",
   },
   // {
   //   title: "Pepsi Landing Page",
@@ -373,7 +424,8 @@ export const articleList = [
     img: "/image/article-3.jpg",
     uploadedAt: "02 January 2022",
     tags: ["Tips & Trick"],
-    description: "In JavaScript, an array is a data structure that contains list of elements which store multiple values in a single variable. The strength of JavaScript arrays lies in the array methods.",
+    description:
+      "In JavaScript, an array is a data structure that contains list of elements which store multiple values in a single variable. The strength of JavaScript arrays lies in the array methods.",
   },
   {
     title: "CSS Cheat Sheet - A Basic Guide to CSS",

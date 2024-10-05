@@ -71,10 +71,12 @@ function Portfolio() {
         className="xl:max-w-sectionWidth max-w-[62.5rem] mx-auto"
       >
         {/* Portfolio Section Subtitle & Description */}
-        <SectionSubtitle>Project i'm created</SectionSubtitle>
+        <SectionSubtitle>Examples of Projects I Have Developed</SectionSubtitle>
         <SectionDescription>
-          I'm created a few project while i'm learing about frontend
-          development. and the project i'll explain below
+          With three years of experience in full-stack development, I’ve
+          successfully delivered multiple projects that showcase my skills and
+          expertise. Below are five notable examples, along with additional
+          major project details included in my CV.
         </SectionDescription>
 
         {/* Portfolio Section Content */}
@@ -128,7 +130,7 @@ function Portfolio() {
                     onClick={() => handleOpenModal(index)}
                     type="primary"
                     size="small"
-                    className="rounded-md font-medium text-center"
+                    className="font-medium text-center rounded-md"
                   >
                     View More
                   </Button>
@@ -137,7 +139,7 @@ function Portfolio() {
                       href={liveURl}
                       type="outline-primary"
                       size="small"
-                      className="rounded-md font-medium text-center"
+                      className="font-medium text-center rounded-md"
                     >
                       Live Preview
                     </Button>
@@ -150,7 +152,7 @@ function Portfolio() {
                       href={githubURL}
                       type="outline-primary"
                       size="small"
-                      className="rounded-md font-medium text-center"
+                      className="font-medium text-center rounded-md"
                     >
                       Source Code
                     </Button>
@@ -169,7 +171,7 @@ function Portfolio() {
         {/* View All Portfolio Button */}
         <motion.div
           variants={fadeIn("up", "tween", 1.25, 0.5)}
-          className="flex justify-center items-center w-full mt-10"
+          className="flex items-center justify-center w-full mt-10"
         >
           <Button
             href={"/portfolio"}
