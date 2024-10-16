@@ -326,13 +326,23 @@ export const servicesList = [
 
 export const portfolioList = [
   {
+    title: "Platform Profit",
+    subtitle:
+      "React.js Node.js MongoDB, Python 3.12, BeautifulSoup4, Requests 2.3, Selenium,",
+    img: "/image/project-5.png",
+    description:
+      "Developed web scrapers for Alibaba, Amazon, and eBay to help drop shippers gather product insights efficiently. Implemented a dual backend using Python for scraping and Node.js for application management. Created a frontend application to display product details, utilized multithreading, stored data in MongoDB, and automated nightly runs with apscheduler. Technologies used include Python 3.12, BeautifulSoup4, Selenium, Flask, Node.js, Express.js, React.js, and various AWS services like Elastic Beanstalk, CodeBuild, CodePipeline, and S3.",
+    liveURl: "",
+    githubURL: "",
+  },
+  {
     title: "PathInTech Application",
     subtitle: "React.js Node.js MongoDB SendGrid API and PayHere gateway",
     img: "/image/project-3.png",
     description:
       "PathInTech.com is an innovative research project designed for IT job seekers. Our platform offers a multitude of features, including those found on LinkedIn, Top Jobs, and Stack Overflow. As a fullstack developer, I have contributed to the creation of this project, ensuring that our users have access to a comprehensive and user-friendly platform for their job search need.",
     liveURl: "https://www.pathintech.com/",
-    githubURL: "https://www.pathintech.com/",
+    githubURL: "",
   },
   {
     title: "Supersconto Application",
@@ -361,18 +371,6 @@ export const portfolioList = [
     liveURl: "",
     githubURL: "",
   },
-  // {
-  //   title: "Phantom Landing Pages",
-  //   subtitle: "HTML CSS and JavaScript",
-  //   img: "/image/project-5.png",
-  //   description: "Using HTML CSS and JavaScript, I have created a dynamic Phantom Landing Page Website which can display data about the Phantom's products and promote them.",
-  // },
-  // {
-  //   title: "Personal Portfolio Website",
-  //   subtitle: "HTML CSS and JavaScript",
-  //   img: "/image/project-6.png",
-  //   description: "Personal portfolio website that i created using HTML, CSS and JavaScript which can displaying about yourself, your skills, your services, your portfolio and contact",
-  // },
 ];
 
 export const allPortfolioList = [
@@ -386,36 +384,6 @@ export const allPortfolioList = [
     liveURl: "",
     githubURL: "",
   },
-  // {
-  //   title: "Pepsi Landing Page",
-  //   subtitle: "HTML CSS and JavaScript",
-  //   img: "/image/project-8.png",
-  //   description: "Using HTML CSS and JavaScript, I have created a static Pepsi Landing Page Website which can display information about the Pepsi's products and promote them.",
-  // },
-  // {
-  //   title: "Coffee Landing Page",
-  //   subtitle: "HTML CSS and JavaScript",
-  //   img: "/image/project-9.png",
-  //   description: "Coffee Landing Page i created using HTML, CSS and JavaScript which can display information about their cafe, popular menus for you, cafe values and cafe contact.",
-  // },
-  // {
-  //   title: "Clothes Shop Landing Page",
-  //   subtitle: "HTML CSS and JavaScript",
-  //   img: "/image/project-10.png",
-  //   description: "Clothes Shop Landing Page website that i created using HTML, CSS and JavaScript which can displaying about new stylish clothes, clothes recommendation for you, their collection and contact.",
-  // },
-  // {
-  //   title: "Berotot Gym Landing Page",
-  //   subtitle: "HTML CSS and JavaScript",
-  //   img: "/image/project-11.png",
-  //   description: "Berotot Gym website i created using HTML, CSS and JavaScript which can displaying about their package, your excercise, reason to choose them and also BMI calculator.",
-  // },
-  // {
-  //   title: "Cryptoza Landing Page",
-  //   subtitle: "HTML CSS and JavaScript",
-  //   img: "/image/project-12.png",
-  //   description: "Cryptoza Landing Page website i created using HTML, CSS and JavaScript which can displaying about daily crypto exchange rate, thier values and demo of cryptograph.",
-  // },
 ];
 
 export const articleList = [
