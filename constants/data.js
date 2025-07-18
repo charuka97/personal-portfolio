@@ -43,8 +43,8 @@ export const identity = {
   region: "Sri Lanka",
   description: [
     //"I create stunning website for your business, Intermediate experienced in web design and development.",
-    "Experienced Full Stack Developer skilled in JavaScript, with expertise in MERN stack for web applications and websites development.",
-    "Hello everyone! I am Charuka Tharindhu, a fullstack and websites developer. I am a intermediate experienced and I hope with this I can always learning something new to be able to invent digital applications that can help humans in the future. Can work alone or in a team.",
+    "Experienced Full Stack Developer specializing in JavaScript and the MERN stack, with a strong focus on building modern, responsive web applications and dynamic websites.",
+    "Hello everyone! I am Charuka Tharindhu, a results-driven Software Engineer with a degree in IT from SLIIT and 3+ years in full-stack development. Skilled in building secure, scalable systems with a focus on performance and user experience. Experienced in Agile teams, AWS, Azure, and 24/7 production support. Eager to contribute to aviation through innovative software that enhances operations, customer service, and digital transformation.",
   ],
   picture: ["/image/profil.png", "/image/about.jpeg"],
   CV: "/pdf/D.M.C.T.Krishantha.pdf",
@@ -117,7 +117,7 @@ export const aboutExperiencesList = [
     title: "Programming Language Used",
   },
   {
-    number: 8,
+    number: 20,
     title: "Successed Projects",
   },
 ];
