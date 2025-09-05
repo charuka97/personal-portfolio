@@ -326,6 +326,16 @@ export const servicesList = [
 
 export const portfolioList = [
   {
+    title: "Invoice Generator",
+    subtitle:
+      "Built with Next.js 15 & TypeScript",
+    img: "/image/project-6.png",
+    description:
+      "A modern Invoice App built with Next.js 15 and TypeScript, featuring custom authentication using Auth.js with Magic Link via Resend. Easily create, edit, and manage invoices with real PDF generation and email reminders. Includes a sleek dashboard with animated charts, form validation using Zod, and a beautiful UI styled with Tailwind CSS and Shadcn UI. Fully optimized and deployed on Vercel.",
+    liveURl: "https://invoice-generator-application-liart.vercel.app/",
+    githubURL: "https://github.com/charuka97/Invoice-Generator-Application",
+  },
+  {
     title: "Platform Profit",
     subtitle:
       "React.js Node.js MongoDB, Python 3.12, BeautifulSoup4, Requests 2.3, Selenium,",
