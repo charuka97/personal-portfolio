@@ -327,13 +327,21 @@ export const servicesList = [
 export const portfolioList = [
   {
     title: "Invoice Generator",
-    subtitle:
-      "Invoice Generator - Built with Next.js 15 & TypeScript",
+    subtitle: "Invoice Generator - Built with Next.js 15 & TypeScript",
     img: "/image/project-6.png",
     description:
       "A modern Invoice App built with Next.js 15 and TypeScript, featuring custom authentication using Auth.js with Magic Link via Resend. Easily create, edit, and manage invoices with real PDF generation and email reminders. Includes a sleek dashboard with animated charts, form validation using Zod, and a beautiful UI styled with Tailwind CSS and Shadcn UI. Fully optimized and deployed on Vercel.",
     liveURl: "https://invoice-generator-application-liart.vercel.app/",
     githubURL: "https://github.com/charuka97/Invoice-Generator-Application",
+  },
+  {
+    title: "Realtime Chat App",
+    subtitle: "Full Stack Chat Application with MERN stack",
+    img: "/image/project-7.png",
+    description:
+      "Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI, Authentication && Authorization with JWT, Real-time messaging with Socket.io, Online user status, Global state management with Zustand, Error handling both on the server and on the client, At the end Deployment like a pro for FREE! And much more!",
+    liveURl: "",
+    githubURL: "https://github.com/charuka97/Realtime-Chat-Application",
   },
   {
     title: "Platform Profit",
