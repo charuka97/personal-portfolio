@@ -351,7 +351,7 @@ export const portfolioList = [
     description:
       "Developed web scrapers for Alibaba, Amazon, and eBay to help drop shippers gather product insights efficiently. Implemented a dual backend using Python for scraping and Node.js for application management. Created a frontend application to display product details, utilized multithreading, stored data in MongoDB, and automated nightly runs with apscheduler. Technologies used include Python 3.12, BeautifulSoup4, Selenium, Flask, Node.js, Express.js, React.js, and various AWS services like Elastic Beanstalk, CodeBuild, CodePipeline, and S3.",
     liveURl: "",
-    githubURL: "",
+    githubURL: "https://github.com/charuka97/Platform-Profit/tree/master",
   },
   {
     title: "PathInTech Application",
