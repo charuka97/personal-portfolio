@@ -357,7 +357,7 @@ export const portfolioList = [
     img: "/image/project-8.png",
     description:
       "Tech stack: MERN + Firebase Auth + TailwindCSS, Authentication & Authorization with JWT, Secure backend with Express & MongoDB, Firebase for user auth & storage, Global state management with React Context, .env configuration for both frontend & backend, Vite-powered frontend for fast dev experience, Seamless integration of APIs, and finally — Deploy like a pro for FREE!",
-    liveURl: "https://github.com/charuka97/Book-Store-App",
+    liveURl: "https://book-store-app-frontend-eosin.vercel.app",
     githubURL: "https://github.com/charuka97/Book-Store-App",
   },
   {
