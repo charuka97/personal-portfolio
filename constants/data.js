@@ -340,7 +340,7 @@ export const portfolioList = [
     img: "/image/project-7.png",
     description:
       "Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI, Authentication && Authorization with JWT, Real-time messaging with Socket.io, Online user status, Global state management with Zustand, Error handling both on the server and on the client, At the end Deployment like a pro for FREE! And much more!",
-    liveURl: "",
+    liveURl: "https://realtime-chat-application-c5vb.onrender.com/",
     githubURL: "https://github.com/charuka97/Realtime-Chat-Application",
   },
   {
