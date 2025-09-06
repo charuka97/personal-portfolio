@@ -325,6 +325,14 @@ export const servicesList = [
 ];
 
 export const portfolioList = [
+  // {
+  //   title: "",
+  //   subtitle: "",
+  //   img: "/image/project-7.png",
+  //   description: "",
+  //   liveURl: "",
+  //   githubURL: "",
+  // },
   {
     title: "Invoice Generator",
     subtitle: "Invoice Generator - Built with Next.js 15 & TypeScript",
@@ -342,6 +350,15 @@ export const portfolioList = [
       "Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI, Authentication && Authorization with JWT, Real-time messaging with Socket.io, Online user status, Global state management with Zustand, Error handling both on the server and on the client, At the end Deployment like a pro for FREE! And much more!",
     liveURl: "https://realtime-chat-application-c5vb.onrender.com/",
     githubURL: "https://github.com/charuka97/Realtime-Chat-Application",
+  },
+  {
+    title: "Book Store App",
+    subtitle: "Fullstack Book store app - Built with MERN stack",
+    img: "/image/project-8.png",
+    description:
+      "Tech stack: MERN + Firebase Auth + TailwindCSS, Authentication & Authorization with JWT, Secure backend with Express & MongoDB, Firebase for user auth & storage, Global state management with React Context, .env configuration for both frontend & backend, Vite-powered frontend for fast dev experience, Seamless integration of APIs, and finally — Deploy like a pro for FREE!",
+    liveURl: "https://github.com/charuka97/Book-Store-App",
+    githubURL: "https://github.com/charuka97/Book-Store-App",
   },
   {
     title: "Platform Profit",
